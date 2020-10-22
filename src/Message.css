@@ -1,0 +1,32 @@
+.message {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  position: relative
+}
+
+.message > img {
+  height: 50px;
+  width: 50px;
+  object-fit: contain;
+}
+
+.message__info {
+  padding-left: 10px;
+}
+
+.message__timestamp {
+  color: gray;
+  font-weight: 300;
+  font-size: 13px;
+}
+
+.message__delete{
+  position: absolute;
+  top: 5;
+  right: 5px;
+}
+
+.message__delete:hover{
+  color:red;
+}
